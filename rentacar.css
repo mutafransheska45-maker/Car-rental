@@ -12,6 +12,10 @@ a{
     
 }
 
+a:hover{
+  text-decoration: underline purple;
+}
+
 ul{
      display: flex;
     justify-content: space-evenly;
@@ -23,6 +27,9 @@ ul{
     background-color: grey;
     padding: 20px;
     width: 100vw;
+    border-radius: 10px;
+    position: sticky;
+  top: 0;
 }
 
 body{
@@ -64,4 +71,8 @@ figcaption{
     text-shadow: 6px 3px 5px purple;
     border-radius: 6px;
     text-align: center;
+}
+
+.checked {
+  color: purple;
 }

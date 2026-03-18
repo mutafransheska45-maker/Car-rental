@@ -31,6 +31,64 @@ body{
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.let{
+    color: grey;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+     font-size: 27px;
+      font-family: "Raleway", sans-serif;
+      margin-top: 40px;
+}
+
+.help{
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    width: 20vw;
+    text-align: center;
+}
+h3, p, figcaption{
+    color:grey;
+     text-shadow: 6px 3px 5px purple;
+}
+
+.mail{
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    width: 27vw;
+    text-align: center;
+} 
+
+.address{
+     /* border: 1px solid white; */
+    margin-top: 30px;
+    width: 27vw;
+    text-align: center;
+}
+
+main figure{
+color:purple;
+padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frame iframe{
+    margin-top: 50px;
+    border-color: purple;
+
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
 }
