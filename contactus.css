@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    width: 100vw;
+    
+}
+
+ul{
+     display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+.nav{
+    background-color: grey;
+    padding: 20px;
+    width: 100vw;
+}
+
+body{
+  background-image: url(images/WhatsApp\ Image\ 2026-03-17\ at\ 23.17.23.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}

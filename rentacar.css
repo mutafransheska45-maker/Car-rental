@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    width: 100vw;
+    
+}
+
+ul{
+     display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+.nav{
+    background-color: grey;
+    padding: 20px;
+    width: 100vw;
+}
+
+body{
+  background-image: url(images/WhatsApp\ Image\ 2026-03-17\ at\ 23.17.23.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: repeat;
+  background-size: cover;
+   background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    overflow-x: hidden;
+}
+
+.high{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-family:"Raleway", sans-serif;
+    font-size: 50px;
+
+}
+
+img{
+    width: 23vw ;
+    height:25vh;
+    margin:20px;
+}
+
+section div{
+    display: flex;
+    justify-content: space-between;
+}
+figcaption{
+    color: grey;
+    font-family:"Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+    text-shadow: 6px 3px 5px purple;
+    border-radius: 6px;
+    text-align: center;
+}
