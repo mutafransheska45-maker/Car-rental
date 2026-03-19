@@ -156,12 +156,14 @@ div a{
         height: 10px;
         padding: 4px;
     }
+
     .copy{
     line-height: 30px;
     }
 
     .last{
     line-height: 30px;
+     
 }
 
     .foots{
@@ -218,15 +220,7 @@ div a{
 
 }
 
-@media screen and (min-width: 1000px) {
-  .foots{
-    position: absolute;
-    bottom: 5px
-  }
-
-} 
-
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
     input{
         display: grid;
         flex-direction: column;
@@ -267,4 +261,4 @@ div a{
         margin:0;
     }
    
-}
+} */
