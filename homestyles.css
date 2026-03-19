@@ -122,14 +122,16 @@ input:hover{
 }
 
 div a{
-    width:1vw;
     display: flex;
-  padding-left: 70px;
-  text-decoration: none;
+  padding-left: 5px;
 }
 
-.last p{
-   line-height: 60px;
+.copy{
+    line-height: 50px;
+}
+
+.last{
+    line-height: 50px;
 }
 
 .foots{
@@ -142,7 +144,7 @@ div a{
     background-color: grey;
     width: 100vw;
     border-radius: 20px;
-    padding: 9px 2px 0px 2px;
+    padding: 0px 2px 0px 2px;
     font-size: large;
     opacity: 0.7;
 }
@@ -152,23 +154,35 @@ div a{
         display: grid;
         flex-direction: column;
         height: 10px;
-        padding: 0;
+        padding: 4px;
     }
+    .copy{
+    line-height: 30px;
+    }
+
+    .last{
+    line-height: 30px;
+}
 
     .foots{
        display: grid;
        flex-direction: column;
-       font-size: x-small;
+       font-size: small;
+       position:absolute;
+       bottom: 2px;
     }
 
     .lola p{
         padding:0;
-        margin:0;
+        margin:10px;
         font-size: 30px;
     }
 
-    select{
-        font-size: small;
+    .select{
+        font-size: 20px;
+        line-height: 10px;
+        margin-top: 1px;
+        line-height: 40px;
     }
 
     .options{
@@ -176,13 +190,6 @@ div a{
         margin:0;
     }
    
-    img{
-      width: 1px;
-      height: 1px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-    }
-
 }
 
 @media screen and (min-width: 500) {
@@ -211,28 +218,53 @@ div a{
 
 }
 
-@media screen and (min-width: 700px) {
-     .nav{
-        margin-bottom: 40px;
-     }
-
-     input{
-        font-size: x-large;
-     }
-
-     body{
-          height: 100vh;
-     }
-}
-
 @media screen and (min-width: 1000px) {
-  *{
-    font-size: xx-large;
-  }
-
   .foots{
     position: absolute;
     bottom: 5px
   }
 
 } 
+
+@media screen and (max-width: 350px) {
+    input{
+        display: grid;
+        flex-direction: column;
+        height: 10px;
+        padding: 4px;
+    }
+    .copy{
+    line-height: 3px;
+    }
+
+    .last{
+    line-height: 3px;
+}
+
+    .foots{
+       display: grid;
+       flex-direction: column;
+       font-size: small;
+       position:absolute;
+       bottom: 2px;
+    }
+
+    .lola p{
+        padding:0;
+        margin:10px;
+        font-size: 30px;
+    }
+
+    .select{
+        font-size: 20px;
+        line-height: 10px;
+        margin-top: 1px;
+        line-height: 4px;
+    }
+
+    .options{
+        padding:0;
+        margin:0;
+    }
+   
+}

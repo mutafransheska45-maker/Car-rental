@@ -47,30 +47,17 @@ body{
       margin-top: 40px;
 }
 
-.help{
-    /* border: 1px solid white; */
-    margin-top: 50px;
-    width: 20vw;
-    text-align: center;
-}
 h3, p, figcaption{
     color:grey;
      text-shadow: 6px 3px 5px purple;
 }
 
-.mail{
+.mail, .help, .address{
     /* border: 1px solid white; */
     margin-top: 30px;
     width: 27vw;
     text-align: center;
 } 
-
-.address{
-     /* border: 1px solid white; */
-    margin-top: 30px;
-    width: 27vw;
-    text-align: center;
-}
 
 main figure{
 color:purple;
